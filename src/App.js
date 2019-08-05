@@ -1,18 +1,32 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <section className="App">
-      <nav className="Navegacion"></nav>
-      <aside className="Canales"></aside>
-      <section className="Contenido">
-        <header className="Busqueda"></header>
-        <section className="Chat"></section>
-        <footer className="Ingreso"></footer>
+import Navegacion from './components/Navegacion/Navegacion.js'
+
+class App extends Component {
+  render() {
+    return (
+      <section className="App">
+        <nav className="Navegacion">
+          <Navegacion/>
+        </nav>
+        <aside className="Canales">
+          "Canales"
+        </aside>
+        <section className="Contenido">
+          <header className="Busqueda">
+            "Busqueda"
+          </header>
+          <section className="Chat">
+            "Chat"
+          </section>
+          <footer className="Ingreso">
+            "Ingreso"
+          </footer>
+        </section>
       </section>
-    </section>
-  );
+    );
+  }
 }
 
 export default App;
