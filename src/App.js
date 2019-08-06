@@ -3,6 +3,7 @@ import './App.css';
 
 import Navegacion from './components/Navegacion/Navegacion.js'
 import Canales from './components/Canales/Canales.js'
+import Busqueda from './components/Busqueda/Busqueda.js'
 
 class App extends Component {
   render() {
@@ -11,19 +12,21 @@ class App extends Component {
         <nav className="Navegacion">
           <Navegacion/>
         </nav>
-        <aside className="Canales">
-            <Canales/>
-        </aside>
-        <section className="Contenido">
-          <header className="Busqueda">
-            "Busqueda"
-          </header>
-          <section className="Chat">
-            "Chat"
+        <section className="todoContenido">
+          <aside className="Canales">
+              <Canales/>
+          </aside>
+          <section className="Contenido">
+            <header className="Busqueda">
+              <Busqueda/>
+            </header>
+            <section className="Chat">
+              "Chat"
+            </section>
+            <footer className="Ingreso">
+              "Ingreso"
+            </footer>
           </section>
-          <footer className="Ingreso">
-            "Ingreso"
-          </footer>
         </section>
       </section>
     );

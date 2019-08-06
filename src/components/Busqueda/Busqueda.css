@@ -1,0 +1,55 @@
+.cabecera {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    height:8vh;
+    background-color: #f2f2f2;
+    color: #797979;
+    width: 80vh;
+    display : flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.cabLogos {
+    display : flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.cabLogos .imgLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabLogos .imgLogo img{
+    margin: 0;
+    height:40%;
+    width:40%;
+}
+
+.cabLogos .textLogo {
+    display : flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.cabLogos .textLogo .cabTxtLogo p {
+    font-size: 20px;
+    color:#172135;
+}
+
+.cabLogos .textLogo .datTxtLogo {
+    display : flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: center;
+}
+
+.cabLogos .textLogo .datTxtLogo img{
+    height:3%;
+    width:3%;
+    padding: 10px;
+}
