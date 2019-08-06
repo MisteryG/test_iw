@@ -1,0 +1,109 @@
+.menNavegacion {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    height:100%;
+    max-width: 22vh;
+    /* min-width: automin widh; */
+    display : flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #162135;
+}
+
+.partLog{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex:1; */
+    background-color:#162135;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.partLog img {
+    flex:1;
+    width:50%;
+}
+
+.partLog a {
+    padding: 8px;
+    flex:1;
+    text-decoration: none;
+    text-align: right;
+    color : #e6e6e6;
+    font-size: 18px;
+    align-self: right;
+}
+
+.partRemoto{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display : flex;
+    flex-wrap: wrap;
+    background-color:#162135;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.partRemoto .activo {
+    flex:1;
+    border: 1px solid #162135;
+    border-radius: 8px;
+    padding: 4px 0 4px 5px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/31/Button_Icon_Green.svg');
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: 8px;
+    background-color: #033351;
+}
+
+.partRemoto .encasa {
+    flex:1;
+    border: 1px solid #162135;
+    border-radius: 8px;
+    padding: 4px 0 4px 20px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/22/Home_font_awesome.svg');
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: 8px;
+    background-color: #033351;
+    color: #cccccc;
+}
+
+.partBusqueda {
+    display : flex;
+    flex-wrap: wrap;
+    background-color:#162135;
+    padding: 8px 4px 8px 4px;
+}
+
+.partBusqueda input {
+    flex:1;
+    color: #797979;
+    border-radius: 8px;
+}
+
+.partBusqueda img {
+    flex:1;
+    width:5%;
+    background-color: #797979;
+    border-radius: 8px;
+}
+
+.partFavoritos {
+    flex:1;
+    background-color: aquamarine;
+}
+
+.partRecientes {
+    flex:1;
+    background-color: azure;
+}
+
+.partCanales {
+    flex:1;
+    background-color: beige;
+}
+
+.partPersonas {
+    flex:1;
+    background-color: bisque;
+}

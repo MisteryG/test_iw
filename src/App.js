@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 
 import Navegacion from './components/Navegacion/Navegacion.js'
+import Canales from './components/Canales/Canales.js'
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
           <Navegacion/>
         </nav>
         <aside className="Canales">
-          "Canales"
+          <Canales/>
         </aside>
         <section className="Contenido">
           <header className="Busqueda">
