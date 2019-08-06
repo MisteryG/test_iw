@@ -4,7 +4,6 @@
     font-size: 14px;
     height:100%;
     max-width: 22vh;
-    /* min-width: automin widh; */
     display : flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -14,7 +13,6 @@
 .partLog{
     display: flex;
     flex-wrap: wrap;
-    /* flex:1; */
     background-color:#162135;
     border-bottom: 2px solid #e6e6e6;
 }
@@ -73,6 +71,7 @@
     flex-wrap: wrap;
     background-color:#162135;
     padding: 8px 4px 8px 4px;
+    border-bottom: 2px solid #e6e6e6;
 }
 
 .partBusqueda input {
@@ -89,8 +88,31 @@
 }
 
 .partFavoritos {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display : flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:#162135;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.partFavoritos .favBender {
     flex:1;
-    background-color: aquamarine;
+    background-color:#162135;
+}
+
+.partFavoritos .favBender img {
+    width:15%;
+}
+
+.partFavoritos .favPR {
+    flex:1;
+    background-color:#162135;
+}
+
+.partFavoritos .favPR img {
+    width:15%;
 }
 
 .partRecientes {
