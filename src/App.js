@@ -12,7 +12,7 @@ class App extends Component {
           <Navegacion/>
         </nav>
         <aside className="Canales">
-          <Canales/>
+            <Canales/>
         </aside>
         <section className="Contenido">
           <header className="Busqueda">
