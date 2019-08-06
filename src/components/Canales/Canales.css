@@ -1,12 +1,11 @@
 .menNavegacion {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    height:100%;
+    min-height:100%;
     max-width: 22vh;
     display : flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background-color: #162135;
 }
 
@@ -55,6 +54,7 @@
 
 .partRemoto .encasa {
     flex:1;
+    font-size: 12px;
     border: 1px solid #162135;
     border-radius: 8px;
     padding: 4px 0 4px 20px;
@@ -76,6 +76,7 @@
 
 .partBusqueda input {
     flex:1;
+    font-weight: 100;
     color: #797979;
     border-radius: 8px;
 }
@@ -87,45 +88,114 @@
     border-radius: 8px;
 }
 
-.partFavoritos {
-    padding-top: 8px;
-    padding-bottom: 8px;
+.padre {
+    font-size: 16px;
+    font-weight: 400;
     display : flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background-color:#162135;
     border-bottom: 2px solid #e6e6e6;
+    color:#e6e6e6;
 }
 
-.partFavoritos .favBender {
-    flex:1;
+.padre .Bender {
+    display : flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 100;
     background-color:#162135;
 }
 
-.partFavoritos .favBender img {
-    width:15%;
+.padre .Bender:hover{
+    display : flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 400;
+    background-color:#797979;
+    color: #172135;
 }
 
-.partFavoritos .favPR {
+.padre .Bender img {
+    width:12%;
+    height:12%;
+    padding: 4px;
+}
+
+.padre .Bender p {
     flex:1;
+}
+
+.padre .Bender a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 50%;
+    color : #cccccc;
+}
+
+.padre .PR {
+    display : flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 100;
     background-color:#162135;
 }
 
-.partFavoritos .favPR img {
-    width:15%;
+.padre .PR:hover{
+    display : flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 400;
+    background-color:#797979;
+    color: #172135;
 }
 
-.partRecientes {
-    flex:1;
-    background-color: azure;
+.padre .PR img {
+    width:12%;
+    height:12%;
+    padding: 4px;
 }
 
-.partCanales {
-    flex:1;
-    background-color: beige;
+.padre .PR a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 50%;
+    color : #cccccc;
 }
 
-.partPersonas {
+.padre .Channel {
+    display : flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 100;
+    background-color:#162135;
+}
+
+.padre .Channel:hover{
+    display : flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 400;
+    background-color:#797979;
+    color: #172135;
+}
+
+.padre .Channel a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 50%;
+    color : #cccccc;
+}
+
+.padre .Channel img {
+    width:12%;
+    height:12%;
+    padding: 4px;
+}
+
+.padre .Channel p {
     flex:1;
-    background-color: bisque;
 }

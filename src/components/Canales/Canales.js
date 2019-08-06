@@ -30,29 +30,105 @@ const Canales = () => (
             <input type='text' placeholder='Busca personas y canales'/>
             <img src={busqueda} alt=""/>
         </section>
-        <section class="partFavoritos">
-            <b class="titleFav">
+        <section class="padre">
+            <p class="title">
                 Favoritos
-            </b>
-            <section class="favBender">
+            </p>
+            <section class="Bender">
                 <img src={cgreen} alt=""/>
                 <img src={bender} alt=""/>
-                <b>Bender-(Tú)</b>
+                <p>Bender-(Tú)</p>
             </section>
-            <section class="favPR">
+            <section class="PR">
                 <img src={cempty} alt="" />
                 <img src={pr} alt=""/>
-                <b>Pickle Rick</b>
+                <p>Pickle Rick</p>
             </section>
-            <section class="favChannel">
+            <section class="Channel">
                 <a href="./"><FontAwesomeIcon icon={faMoon}/></a>
                 <a href="./"><FontAwesomeIcon icon={faChartArea}/></a>
-                <b>Canal</b>
+                <p>Canal</p>
             </section>
         </section>
-        <section class="partRecientes"></section>
-        <section class="partCanales"></section>
-        <section class="partPersonas"></section>
+        <section class="padre">
+            <p class="title">
+                Recientes
+            </p>
+            <section class="Bender">
+                <img src={cgreen} alt=""/>
+                <img src={bender} alt=""/>
+                <p>Bender-(Tú)</p>
+            </section>
+            <section class="PR">
+                <a href="./"><FontAwesomeIcon icon={faMoon}/></a>
+                <img src={pr} alt=""/>
+                <p>Pickle Rick</p>
+            </section>
+            <section class="Channel">
+                <img src={cempty} alt=""/>
+                <a href="./"><FontAwesomeIcon icon={faChartArea}/></a>
+                <p>Canal</p>
+            </section>
+            <section class="PR">
+                <img src={cgreen} alt=""/>
+                <img src={pr} alt=""/>
+                <p>Pickle Rick</p>
+            </section>
+            <section class="Channel">
+                <img src={cempty} alt=""/>
+                <a href="./"><FontAwesomeIcon icon={faChartArea}/></a>
+                <p>Canal</p>
+            </section>
+        </section>
+        <section class="padre">
+            <section class="Channel">
+                <a href="./"><FontAwesomeIcon icon={faChartArea}/></a>
+                <p>Canal</p>
+            </section>
+            <section class="Channel">
+                <a href="./"><FontAwesomeIcon icon={faChartArea}/></a>
+                <p>Canal</p>
+            </section>
+            <section class="Channel">
+                <a href="./"><FontAwesomeIcon icon={faChartArea}/></a>
+                <p>Canal</p>
+            </section>
+            <section class="Channel">
+                <a href="./"><FontAwesomeIcon icon={faChartArea}/></a>
+                <p>Canal</p>
+            </section>
+            <section class="Channel">
+                <a href="./"><FontAwesomeIcon icon={faChartArea}/></a>
+                <p>Canal</p>
+            </section>
+        </section>
+        <section class="padre">
+            <section class="PR">
+                <img src={cgreen} alt=""/>
+                <img src={pr} alt=""/>
+                <p>Pickle Rick</p>
+            </section>
+            <section class="PR">
+                <a href="./"><FontAwesomeIcon icon={faMoon}/></a>
+                <img src={pr} alt=""/>
+                <p>Pickle Rick</p>
+            </section>
+            <section class="PR">
+                <img src={cempty} alt=""/>
+                <img src={pr} alt=""/>
+                <p>Pickle Rick</p>
+            </section>
+            <section class="PR">
+                <img src={cgreen} alt=""/>
+                <img src={pr} alt=""/>
+                <p>Pickle Rick</p>
+            </section>
+            <section class="PR">
+                <img src={cempty} alt=""/>
+                <img src={pr} alt=""/>
+                <p>Pickle Rick</p>
+            </section>
+        </section>
     </section>
 );
 
