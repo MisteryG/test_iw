@@ -2,7 +2,6 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 14px;
-    min-width: 0;
     height: 10vh;
     min-height: 50px;
     background-color: #f2f2f2;
@@ -11,6 +10,7 @@
     display : flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    flex:1;
 }
 
 .cabLogos {
@@ -36,7 +36,6 @@
     flex-direction: column;
     flex-wrap: nowrap;
     height: 5%;
-    /* align-content: center; */
 }
 
 .cabTxtLogo {
@@ -78,22 +77,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex:1;
 }
 
 .cuadBusqueda input {
     padding: 0;
-}
-
-.cuadBusqueda img{
-    padding: 0;
-    height:20%;
-    width:20%;
+    background-image: url('https://png.pngtree.com/png_detail/20181019/magnifying-glass-icon-png-clipart_2947431.png');
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: right;
+    width: 15vw;
 }
 
 .adjunLogos {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    flex:1;
 }
 
 .adjunLogos a {

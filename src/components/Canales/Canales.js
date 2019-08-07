@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../../Images/RickMorty.svg'
-import busqueda from '../../Images/search.svg'
 import pr from '../../Images/pr.png'
 import bender from '../../Images/bender.png'
 import cgreen from '../../Images/cgreen.svg'
@@ -28,7 +27,6 @@ const Canales = () => (
         </section>
         <section class="partBusqueda">
             <input type='text' placeholder='Busca personas y canales'/>
-            <img src={busqueda} alt=""/>
         </section>
         <section class="padre">
             <p class="title">

@@ -32,7 +32,6 @@ const Busqueda = () => (
         </section>
         <section class="cuadBusqueda">
             <input type='text' placeholder='Busca un mensaje'/>
-            <img src={busqueda} alt=""/>
         </section>
         <section class = "adjunLogos">
             <a href="./"><FontAwesomeIcon icon={faEnvelopeOpenText}/>Chat</a>
