@@ -1,0 +1,75 @@
+.allChat {
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    /* align-self: center; */
+    flex-wrap: nowrap;
+    flex-direction: column;
+    flex: 1;
+    color: #000000;
+}
+
+.chat {
+    font-family: 'Roboto', sans-serif;
+    max-width: 88vw;
+    display : flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-self: left;
+    /* flex-grow: 1; */
+}
+
+.chatImg {
+    display: flex;
+    /* text-align: center;
+    align-self: center; */
+    align-items:flex-start;
+}
+
+.chatImg .logo {
+    display:flex;
+    flex:1;
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+}
+
+.chatTxt {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-self: center;
+}
+
+.chatTitulares{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-self: left;
+}
+
+.chatTitulares .nombre {
+    display: flex;
+    align-self: left;
+    font-size: 16px;
+    font-weight: 300;
+    margin:0;
+    padding:0;
+}
+
+.chatTitulares .fecha {
+    display: flex;
+    align-self: left;
+    font-size: 14px;
+    font-weight: 100;
+    margin:0;
+    padding:0;
+    padding-left: 14px;
+    color: #797979;
+}
+
+.chatTxt .mensaje {
+    margin:0;
+    padding:0;
+}

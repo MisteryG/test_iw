@@ -24,10 +24,19 @@ export const addChat = (messages) => {
 }
 
 export const setChat = () => {
+    var config = {
+        headers: {
+            'Access-Control-Allow-Origin': '*',
+            'Content-Type':'application/json',
+            mode: 'no-cors'
+        }
+    }
     return (dispatch) => {
-        return axios.get ('https://huc2m17au1.execute-api.us-west-2.amazonaws.com/production/messages')
+        axios.get ('https://huc2m17au1.execute-api.us-west-2.amazonaws.com/production/messages',config)
             .then (response => {
-                console.log(response.data);
+                console.log(response)
+                console.log(response.data.results);
+                console.log(response.status)
                 dispatch(initChat(response.data))
             })
             .catch (error => {
