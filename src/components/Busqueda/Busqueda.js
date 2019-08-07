@@ -1,7 +1,11 @@
 import React from 'react'
+import busqueda from '../../Images/search.svg'
 import pr from '../../Images/pr.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
+import { faFileArchive } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons'
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import cgreen from '../../Images/cgreen.svg'
 
 import './Busqueda.css';
@@ -27,10 +31,13 @@ const Busqueda = () => (
             </section>
         </section>
         <section class="cuadBusqueda">
-
+            <input type='text' placeholder='Busca un mensaje'/>
+            <img src={busqueda} alt=""/>
         </section>
         <section class = "adjunLogos">
-
+            <a href="./"><FontAwesomeIcon icon={faEnvelopeOpenText}/>Chat</a>
+            <a href="./"><FontAwesomeIcon icon={faFileArchive}/>Archivos</a>
+            <a href="./"><FontAwesomeIcon icon={faExternalLinkAlt}/>Links</a>
         </section>
     </section>
 );

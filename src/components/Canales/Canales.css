@@ -1,9 +1,10 @@
 .menNavegacion {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    max-width: 22vh;
-    min-width: 0;
+    max-width: 11vw;
+    /* min-width: 5vw; */
     min-height: 0;
+    min-width: 160px;
     display : flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -12,7 +13,7 @@
 
 .partLog{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background-color:#162135;
     border-bottom: 2px solid #e6e6e6;
 }
@@ -36,7 +37,7 @@
     padding-top: 8px;
     padding-bottom: 8px;
     display : flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background-color:#162135;
     border-bottom: 2px solid #e6e6e6;
 }
@@ -69,7 +70,9 @@
 
 .partBusqueda {
     display : flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    flex:1;
     background-color:#162135;
     padding: 8px 4px 8px 4px;
     border-bottom: 2px solid #e6e6e6;
@@ -78,14 +81,15 @@
 .partBusqueda input {
     flex:1;
     font-weight: 100;
+    width: 150px;
     color: #797979;
     border-radius: 8px;
 }
 
 .partBusqueda img {
     flex:1;
-    width:5%;
-    height:5%;
+    width:20px;
+    height:20px;
     background-color: #797979;
     border-radius: 8px;
 }
@@ -94,6 +98,7 @@
     font-size: 16px;
     font-weight: 400;
     display : flex;
+    flex:1;
     flex-direction: column;
     flex-wrap: nowrap;
     background-color:#162135;
@@ -103,7 +108,9 @@
 
 .padre .Bender {
     display : flex;
+    flex:1;
     flex-direction: row;
+    flex-wrap: nowrap;
     font-size: 14px;
     font-weight: 100;
     background-color:#162135;
@@ -139,6 +146,8 @@
 .padre .PR {
     display : flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    flex:1;
     font-size: 14px;
     font-weight: 100;
     background-color:#162135;
@@ -170,6 +179,8 @@
 .padre .Channel {
     display : flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    flex:1;
     font-size: 14px;
     font-weight: 100;
     background-color:#162135;
