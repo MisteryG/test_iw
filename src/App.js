@@ -4,6 +4,7 @@ import './App.css';
 import Navegacion from './components/Navegacion/Navegacion.js'
 import Canales from './components/Canales/Canales.js'
 import Busqueda from './components/Busqueda/Busqueda.js'
+import Chat from './containers/Chat/Chat.js'
 
 class App extends Component {
   render() {
@@ -21,7 +22,7 @@ class App extends Component {
               <Busqueda/>
             </header>
             <section className="Chat">
-              "Chat"
+              <Chat/>
             </section>
             <footer className="Ingreso">
               "Ingreso"
