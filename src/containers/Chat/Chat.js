@@ -8,9 +8,9 @@ var newDate = new Date();
 
 class ChatMessages extends Component {
 
-    // componentWillMount() {
-    //     this.props.onInitChat()
-    // }
+    componentWillMount() {
+        this.props.onInitChat()
+    }
     
     render() {
         console.log(this.props.messages.messages)
