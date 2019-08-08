@@ -3,9 +3,8 @@
     text-align: center;
     font-size: 15px;
     font-weight: 100;
-    /* align-self: center; */
     flex-wrap: nowrap;
-    flex-direction: column;
+    flex-direction: column-reverse;
     flex: 1;
     color: #000000;
 }
@@ -17,13 +16,10 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-self: left;
-    /* flex-grow: 1; */
 }
 
 .chatImg {
     display: flex;
-    /* text-align: center;
-    align-self: center; */
     align-items:flex-start;
 }
 

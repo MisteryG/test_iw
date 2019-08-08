@@ -44,7 +44,6 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        // onChatAdd: (messages) => dispatch({type:'ADDCHAT', val:messages}),
         onInitChat: () => dispatch(actionTypes.setChat())
     }
 }

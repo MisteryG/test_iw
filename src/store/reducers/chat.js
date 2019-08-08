@@ -64,8 +64,13 @@ const initialState = {
 const reducer = (state = initialState, action) => {
     switch (action.type) {
         case actionTypes.ADD_CHAT:
+            console.log(action.messages)
             return {
-                ...state.messages.push(action.messages)
+                ...state,
+                messages: {
+                    ...state.messages,
+                    messages: state.messages.messages.concat(action.messages)
+                }
             };
         case actionTypes.INIT_CHAT:
             return {

@@ -12,116 +12,116 @@ import { faMoon } from '@fortawesome/free-solid-svg-icons'
 import './Canales.css';
 
 const Canales = () => (
-    <section class="menNavegacion">
-        <section class="partLog">
+    <section className="menNavegacion">
+        <section className="partLog">
             <img src={logo} alt=""/>
             <a href="./"><FontAwesomeIcon icon={faList}/></a>
         </section>
-        <section class="partRemoto">
-            <select class="activo">
+        <section className="partRemoto">
+            <select className="activo">
                 <option hidden></option>
             </select>
-            <select class="encasa">
+            <select className="encasa">
                 <option hidden>trabajando remoto</option>
             </select>
         </section>
-        <section class="partBusqueda">
+        <section className="partBusqueda">
             <input type='text' placeholder='Busca personas y canales'/>
         </section>
-        <section class="padre">
-            <p class="title">
+        <section className="padre">
+            <p className="title">
                 Favoritos
             </p>
-            <section class="Bender">
+            <section className="Bender">
                 <img src={cgreen} alt=""/>
                 <img src={bender} alt=""/>
                 <p>Bender-(Tú)</p>
             </section>
-            <section class="PR">
+            <section className="PR">
                 <img src={cempty} alt="" />
                 <img src={pr} alt=""/>
                 <p>Pickle Rick</p>
             </section>
-            <section class="Channel">
+            <section className="Channel">
                 <a href="./"><FontAwesomeIcon icon={faMoon}/></a>
                 <a href="./"><FontAwesomeIcon icon={faChartArea}/></a>
                 <p>Canal</p>
             </section>
         </section>
-        <section class="padre">
-            <p class="title">
+        <section className="padre">
+            <p className="title">
                 Recientes
             </p>
-            <section class="Bender">
+            <section className="Bender">
                 <img src={cgreen} alt=""/>
                 <img src={bender} alt=""/>
                 <p>Bender-(Tú)</p>
             </section>
-            <section class="PR">
+            <section className="PR">
                 <a href="./"><FontAwesomeIcon icon={faMoon}/></a>
                 <img src={pr} alt=""/>
                 <p>Pickle Rick</p>
             </section>
-            <section class="Channel">
+            <section className="Channel">
                 <img src={cempty} alt=""/>
                 <a href="./"><FontAwesomeIcon icon={faChartArea}/></a>
                 <p>Canal</p>
             </section>
-            <section class="PR">
+            <section className="PR">
                 <img src={cgreen} alt=""/>
                 <img src={pr} alt=""/>
                 <p>Pickle Rick</p>
             </section>
-            <section class="Channel">
+            <section className="Channel">
                 <img src={cempty} alt=""/>
                 <a href="./"><FontAwesomeIcon icon={faChartArea}/></a>
                 <p>Canal</p>
             </section>
         </section>
-        <section class="padre">
-            <section class="Channel">
+        <section className="padre">
+            <section className="Channel">
                 <a href="./"><FontAwesomeIcon icon={faChartArea}/></a>
                 <p>Canal</p>
             </section>
-            <section class="Channel">
+            <section className="Channel">
                 <a href="./"><FontAwesomeIcon icon={faChartArea}/></a>
                 <p>Canal</p>
             </section>
-            <section class="Channel">
+            <section className="Channel">
                 <a href="./"><FontAwesomeIcon icon={faChartArea}/></a>
                 <p>Canal</p>
             </section>
-            <section class="Channel">
+            <section className="Channel">
                 <a href="./"><FontAwesomeIcon icon={faChartArea}/></a>
                 <p>Canal</p>
             </section>
-            <section class="Channel">
+            <section className="Channel">
                 <a href="./"><FontAwesomeIcon icon={faChartArea}/></a>
                 <p>Canal</p>
             </section>
         </section>
-        <section class="padre">
-            <section class="PR">
+        <section className="padre">
+            <section className="PR">
                 <img src={cgreen} alt=""/>
                 <img src={pr} alt=""/>
                 <p>Pickle Rick</p>
             </section>
-            <section class="PR">
+            <section className="PR">
                 <a href="./"><FontAwesomeIcon icon={faMoon}/></a>
                 <img src={pr} alt=""/>
                 <p>Pickle Rick</p>
             </section>
-            <section class="PR">
+            <section className="PR">
                 <img src={cempty} alt=""/>
                 <img src={pr} alt=""/>
                 <p>Pickle Rick</p>
             </section>
-            <section class="PR">
+            <section className="PR">
                 <img src={cgreen} alt=""/>
                 <img src={pr} alt=""/>
                 <p>Pickle Rick</p>
             </section>
-            <section class="PR">
+            <section className="PR">
                 <img src={cempty} alt=""/>
                 <img src={pr} alt=""/>
                 <p>Pickle Rick</p>

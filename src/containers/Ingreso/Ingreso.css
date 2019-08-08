@@ -1,0 +1,53 @@
+.barMessages {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    flex: 1;
+    color: #797979;
+    background-color: #f2f2f2;
+    height:5vh;
+    width: 100%;
+}
+
+.barImg {
+    display: flex;
+    height:5vh;
+    align-items:flex-start;
+}
+
+.barImg img {
+    display: flex;
+    align-self: center;
+    height: 75%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.barBusqueda {
+    flex: 1;
+    align-self: center;
+}
+
+.barBusqueda input {
+    display: flex;
+    width: 100%;
+}
+
+.barIcon {
+    display: flex;
+    align-self: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.barIcon a {
+    font-size: 20px;
+    text-decoration: none;
+    color : #797979;
+    padding-left: 10px;
+    padding-right: 10px;
+}

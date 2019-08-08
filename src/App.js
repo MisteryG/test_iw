@@ -5,6 +5,7 @@ import Navegacion from './components/Navegacion/Navegacion.js'
 import Canales from './components/Canales/Canales.js'
 import Busqueda from './components/Busqueda/Busqueda.js'
 import Chat from './containers/Chat/Chat.js'
+import Ingreso from './containers/Ingreso/Ingreso.js'
 
 class App extends Component {
   render() {
@@ -25,7 +26,7 @@ class App extends Component {
               <Chat/>
             </section>
             <footer className="Ingreso">
-              "Ingreso"
+              <Ingreso/>
             </footer>
           </section>
         </section>
