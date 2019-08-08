@@ -12,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Installation
 
-> Clonar el repositorio, colocarse en la rama Master e instalar los elementos por medio del comando NPM I.
+>Clonar el repositorio, colocarse en la rama Master e instalar los elementos por medio del comando NPM I.
 
 >La estructura de carpetas está dividida dentro del src, en components, containers, images y store.
 
@@ -22,6 +22,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 >Dentro de store se localizan los actions y reducers.
 
+>En la rama detalles se encuentra el axios que realiza la petición a https://jsonplaceholder.typicode.com para obtener información
+
+>En la rama detalles se debe de usar el puerto 8000
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -29,7 +33,11 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser for master branch
+
+The page will reload if you make edits.<br>
+<br>
+Open [http://localhost:8000](http://localhost:8000) to view it in the browser for detalles branch
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
