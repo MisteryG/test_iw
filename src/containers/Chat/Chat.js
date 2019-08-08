@@ -13,18 +13,18 @@ class ChatMessages extends Component {
     }
     
     render() {
-        console.log(this.props.messages.messages)
-        const valores = this.props.messages.messages.map((dat) => 
+        console.log('mensajes',this.props.messages)
+        const valores = this.props.messages.map((dat) => 
                 <section className="chat">
                     <section className="chatImg">
                         <img src={pr} className="logo"/>
                     </section>
                     <section className="chatTxt">
                         <section className="chatTitulares">
-                            <p className="nombre">{dat.user.name}</p>
+                            <p className="nombre">{dat.name}</p>
                             <p className="fecha">{newDate.toDateString()}</p>
                         </section>
-                        <p className="mensaje">{dat.message}</p>
+                        <p className="mensaje">{dat.email}</p>
                     </section>
                 </section>
         )
