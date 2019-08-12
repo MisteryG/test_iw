@@ -25,16 +25,29 @@ class InsertMessages extends Component {
 
     keyPress(e) {
         if(e.keyCode == 13){
-        //    console.log('value', e.target.value);
-           let valIngresar = {
-                user: {
-                    name: "Bender",
-                    username: "bender",
-                    id: 1
+            let valIngresar = {
+                id: 1,
+                name: "Daniel De La Paz",
+                username: "Bret",
+                email: e.target.value,
+                address: {
+                street: "Kulas Light",
+                suite: "Apt. 556",
+                city: "Gwenborough",
+                zipcode: "92998-3874",
+                geo: {
+                lat: "-37.3159",
+                lng: "81.1496"
+                }
                 },
-                receiver_id: 2,
-                message: e.target.value
-            }
+                phone: "1-770-736-8031 x56442",
+                website: "hildegard.org",
+                company: {
+                name: "Romaguera-Crona",
+                catchPhrase: "Multi-layered client-server neural-net",
+                bs: "harness real-time e-markets"
+                }
+                }
             this.setState({value:''});
             this.props.onChatAdd(valIngresar);
         }

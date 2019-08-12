@@ -1,64 +1,31 @@
 import * as actionTypes from '../actions/actionTypes.js'
 
 const initialState = {
-    messages : {
-        messages: [
+    messages : [
         {
-        user: {
-        name: "Bender",
-        username: "bender",
-        id: 1
-        },
-        receiver_id: 2,
-        message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-        user: {
-        name: "Pickle Rick",
-        username: "pickle_rick",
-        id: 2
-        },
-        receiver_id: 1,
-        message: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        },
-        {
-        user: {
-        name: "Bender",
-        username: "bender",
-        id: 1
-        },
-        receiver_id: 2,
-        message: "Consectetur adipiscing elit."
-        },
-        {
-        user: {
-        name: "Bender",
-        username: "bender",
-        id: 1
-        },
-        receiver_id: 2,
-        message: "Incididunt ut labore et dolore magna."
-        },
-        {
-        user: {
-        name: "Pickle Rick",
-        username: "pickle_rick",
-        id: 2
-        },
-        receiver_id: 1,
-        message: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        },
-        {
-        user: {
-        name: "Pickle Rick",
-        username: "pickle_rick",
-        id: 2
-        },
-        receiver_id: 1,
-        message: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        }
-        ]
-        }
+            id: 1,
+            name: "Leanne Graham",
+            username: "Bret",
+            email: "Sincere@april.biz",
+            address: {
+            street: "Kulas Light",
+            suite: "Apt. 556",
+            city: "Gwenborough",
+            zipcode: "92998-3874",
+            geo: {
+            lat: "-37.3159",
+            lng: "81.1496"
+            }
+            },
+            phone: "1-770-736-8031 x56442",
+            website: "hildegard.org",
+            company: {
+            name: "Romaguera-Crona",
+            catchPhrase: "Multi-layered client-server neural-net",
+            bs: "harness real-time e-markets"
+            }
+            }
+    ]
 };
 
 const reducer = (state = initialState, action) => {
@@ -67,10 +34,7 @@ const reducer = (state = initialState, action) => {
             console.log(action.messages)
             return {
                 ...state,
-                messages: {
-                    ...state.messages,
-                    messages: state.messages.messages.concat(action.messages)
-                }
+                messages: state.messages.concat(action.messages)
             };
         case actionTypes.INIT_CHAT:
             return {

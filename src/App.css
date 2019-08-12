@@ -1,11 +1,33 @@
+.app {
+    display:flex;
+    flex:1;
+}
+
+.Navegacion {
+    flex:1;
+}
+
 .todoContenido{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     width: 100%;
+    flex:1;
 }
 
-.app {
-    display:flex;
+.Contenido{
+    display: flex;
+    flex-direction: column;
+}
+
+.Contenido .Busqueda{
+    flex:1;
+}
+
+.Contenido .Chat{
+    flex:1;
+}
+
+.Contenido .Ingreso{
     flex:1;
 }
