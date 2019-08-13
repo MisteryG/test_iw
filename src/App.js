@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
-import './App.css';
-
 import Navegacion from './components/Navegacion/Navegacion.js'
 import Canales from './components/Canales/Canales.js'
 import Busqueda from './components/Busqueda/Busqueda.js'
 import Chat from './containers/Chat/Chat.js'
 import Ingreso from './containers/Ingreso/Ingreso.js'
+import './App.css';
 
 class App extends Component {
   render() {
