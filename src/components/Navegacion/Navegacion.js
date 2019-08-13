@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSpaceShuttle } from '@fortawesome/free-solid-svg-icons'
 import { faMicroscope } from '@fortawesome/free-solid-svg-icons'
 import { faPeopleCarry } from '@fortawesome/free-solid-svg-icons'
-
 import './Navegacion.css';
 
 const Navegacion = () => (
